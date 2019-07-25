@@ -1,0 +1,11 @@
+C:\Users\serkan.sorman\Desktop\WebProjects\nHibernateDemo\nHibernateDemo\bin\Debug\netcoreapp2.2\nHibernateDemo.deps.json
+C:\Users\serkan.sorman\Desktop\WebProjects\nHibernateDemo\nHibernateDemo\bin\Debug\netcoreapp2.2\nHibernateDemo.runtimeconfig.json
+C:\Users\serkan.sorman\Desktop\WebProjects\nHibernateDemo\nHibernateDemo\bin\Debug\netcoreapp2.2\nHibernateDemo.runtimeconfig.dev.json
+C:\Users\serkan.sorman\Desktop\WebProjects\nHibernateDemo\nHibernateDemo\bin\Debug\netcoreapp2.2\nHibernateDemo.dll
+C:\Users\serkan.sorman\Desktop\WebProjects\nHibernateDemo\nHibernateDemo\bin\Debug\netcoreapp2.2\nHibernateDemo.pdb
+C:\Users\serkan.sorman\Desktop\WebProjects\nHibernateDemo\nHibernateDemo\obj\Debug\netcoreapp2.2\nHibernateDemo.csprojAssemblyReference.cache
+C:\Users\serkan.sorman\Desktop\WebProjects\nHibernateDemo\nHibernateDemo\obj\Debug\netcoreapp2.2\nHibernateDemo.csproj.CoreCompileInputs.cache
+C:\Users\serkan.sorman\Desktop\WebProjects\nHibernateDemo\nHibernateDemo\obj\Debug\netcoreapp2.2\nHibernateDemo.AssemblyInfoInputs.cache
+C:\Users\serkan.sorman\Desktop\WebProjects\nHibernateDemo\nHibernateDemo\obj\Debug\netcoreapp2.2\nHibernateDemo.AssemblyInfo.cs
+C:\Users\serkan.sorman\Desktop\WebProjects\nHibernateDemo\nHibernateDemo\obj\Debug\netcoreapp2.2\nHibernateDemo.dll
+C:\Users\serkan.sorman\Desktop\WebProjects\nHibernateDemo\nHibernateDemo\obj\Debug\netcoreapp2.2\nHibernateDemo.pdb

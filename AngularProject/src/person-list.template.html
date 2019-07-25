@@ -1,0 +1,47 @@
+<div class="container" ng-controller="PersonCtrl as ctrl">
+
+
+    <div class="search-wrapper">
+    
+        <input ng-model="$ctrl.query" type="text" name="search" placeholder="Search..">
+        Sort by:
+        <select ng-model="$ctrl.orderProp">
+          <option value="Email">Email</option>
+          <option value="Id">ID</option>
+        </select>
+    </div>
+    
+      <!--Body content-->
+      <div class="table-wrapper">
+          <div class="table-title">
+            <div class="col-sm-8"><h2>Employee <b>Details</b></h2></div>
+            <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>ID </th>
+                    <th> E-mail</th>
+                    <th> First Name</th>
+                    <th> Last Name</th>
+                    <th>Actions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  
+                  <tr ng-repeat="person in $ctrl.employees | filter:$ctrl.query | orderBy:$ctrl.orderProp">
+                      <td>{{person.Id}}</td>
+                      <td>{{person.Email}}</td>
+                      <td>{{person.FirstName}}</td>
+                      <td>{{person.LastName}}</td>
+
+                      <td>
+                        <a class="add"  title="Add" data-toggle="tooltip"><i class="material-icons">&#xE03B;</i></a>
+                        <a class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
+                        <a ng-click="ctrl.toBeDeleted(person.Id)" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+                      </td>
+
+                  </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
